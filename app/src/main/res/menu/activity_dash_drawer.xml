@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="Your Cart"/>
+        <item
+            android:id="@+id/nav_wish"
+            android:icon="@drawable/ic_wishlist"
+            android:title="Your Wish List"/>
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_box"
+            android:title="Your Orders" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Your Profile" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_exit"
+            android:title="Sign Out" />
+
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_call"
+                android:title="Call" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_whatsapp"
+                android:title="Whatsapp" />
+
+        </menu>
+    </item>
+
+    <item android:title="Help and Service">
+        <menu>
+            <item
+                android:id="@+id/nav_service"
+                android:icon="@drawable/ic_technical_support_black"
+                android:title="Service Center" />
+        </menu>
+    </item>
+
+    <item android:title="About Developer">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback and support" />
+
+        </menu>
+    </item>
+
+
+</menu>

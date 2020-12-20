@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+    <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:focusable="true"
+        android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="10dp"
+            app:queryHint="Search" />
+        <ImageButton
+        android:id="@+id/filter"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="#fff"
+            android:src="@drawable/ic_filter_list_black_24dp"
+        android:layout_marginLeft="1dp"/>
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

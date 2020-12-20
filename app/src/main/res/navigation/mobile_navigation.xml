@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.impressionselling.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.impressionselling.ui.orders.OrderFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.impressionselling.ui.profile.ProfileFragment"
+        android:label="Your Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.impressionselling.ui.cart.CartFragment"
+        android:label="My Cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.example.impressionselling.ui.product.ProductsFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_products" />
+
+
+    <fragment
+        android:id="@+id/nav_products_details"
+        android:name="com.example.impressionselling.ui.productDetails.ProductDetails"
+        android:label="Products Detail"
+        tools:layout="@layout/fragment_product_details" />
+
+
+    <fragment
+        android:id="@+id/nav_order_detail"
+        android:name="com.example.impressionselling.ui.orders.orderList"
+        android:label="Order Details"
+        tools:layout="@layout/fragment_order_list" />
+
+    <fragment
+        android:id="@+id/nav_wishList"
+        android:name="com.example.impressionselling.ui.wish.WishList"
+        android:label="My Wish List"
+        tools:layout="@layout/fragment_wish_list" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.impressionselling.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="com.example.impressionselling.ui.photo.photoFragment"
+        android:label="Photo"
+        tools:layout="@layout/fragment_photo" />
+
+
+    <fragment
+        android:id="@+id/nav_subCategory"
+        android:name="com.example.impressionselling.ui.subCategory.subCategoryFragment"
+        android:label="Sub-Category"
+        tools:layout="@layout/fragment_sub_category" />
+
+
+    <fragment
+        android:id="@+id/nav_generated"
+        android:name="com.example.impressionselling.rmo.GeneratedFragment"
+        android:label="Generated"
+        tools:layout="@layout/fragment_generated" />
+
+
+    <fragment
+        android:id="@+id/nav_completed"
+        android:name="com.example.impressionselling.rmo.CompletedFragment"
+        android:label="Completed"
+        tools:layout="@layout/fragment_completed" />
+
+
+    <fragment
+        android:id="@+id/nav_issued"
+        android:name="com.example.impressionselling.rmo.IssuedFragment"
+        android:label="Issued"
+        tools:layout="@layout/fragment_issued" />
+
+</navigation>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.impressionselling.ui.subCategory.subCategoryFragment"
+    android:orientation="vertical"
+    android:background="#e1f5fe">
+
+
+    <ImageView
+        android:id="@+id/coming_soon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:srcCompat="@drawable/coming_soon" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subCategoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
+</LinearLayout>

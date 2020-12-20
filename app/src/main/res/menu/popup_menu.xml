@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/priceLH"
+        android:title="Price - Lowest to Highest" />
+    <item
+        android:id="@+id/priceHL"
+        android:title="Price - Highest to Lowest" />
+    <item
+        android:id="@+id/marginLH"
+        android:title="Margin - Lowest  to Highest" />
+    <item
+        android:id="@+id/marginHL"
+        android:title="Margin - Highest to Lowest" />
+</menu>
